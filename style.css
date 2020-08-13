@@ -1,6 +1,9 @@
 body{
     margin:0px;
     padding: 0px;
+    background-image: url(images/image0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 ul{
     list-style: none;
@@ -22,8 +25,30 @@ nav ul{
 }
 nav ul li a{
     margin:20px;
-    font-family: Lucida Sans;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:rgb(7, 6, 6);
     font-size: 20px;
     font-weight: bold;
+}
+.description{
+    color:white;
+    border: 0px;
+    text-align: center;
+    margin-top: 10em;
+}
+.description h1{
+    color: turquoise;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.description h2{
+    color: tomato;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+img{
+    border-radius: 10px;
+
 }
