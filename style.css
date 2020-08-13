@@ -1,0 +1,29 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+    padding: 0px 10%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin:20px;
+    font-family: Lucida Sans;
+    color:rgb(7, 6, 6);
+    font-size: 20px;
+    font-weight: bold;
+}
