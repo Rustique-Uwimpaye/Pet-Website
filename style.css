@@ -101,6 +101,7 @@ footer p:nth-child(2){
     background-color: white;
     margin: 20px 10px;
     border-radius: 50%;
+    text-decoration: none;
 }
 .social-icons{
     display: flex;
